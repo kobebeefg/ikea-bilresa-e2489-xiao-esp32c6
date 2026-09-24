@@ -55,7 +55,7 @@ python -m esptool --chip esp32c6 --port COM24 --baud 460800 write-flash --flash-
 python serial_dashboard.py --port COM24 --reset-on-connect
 ```
 
-瀏覽器開啟 **http://127.0.0.1:8766/**。
+瀏覽器開啟 [本機配對紀錄網頁](http://127.0.0.1:8766/)（`http://127.0.0.1:8766/`）。
 
 啟動後 C6 會建立或還原自己的 Zigbee 網路，並開放 **180 秒**讓遙控器加入。網頁可看到目前狀態、倒數秒數、入網紀錄與開關更新次數。
 
