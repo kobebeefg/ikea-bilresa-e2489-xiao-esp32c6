@@ -1,0 +1,7 @@
+.pio/
+managed_components/
+logs/
+__pycache__/
+sdkconfig.*
+!sdkconfig.defaults
+*.map
